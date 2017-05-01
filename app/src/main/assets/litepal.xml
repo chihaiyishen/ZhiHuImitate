@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value = "zhihudata"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.example.zhihuimitate.db.DailyData" />
+    </list>
+
+</litepal>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_daily"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="日报"
+            />
+
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_import_contacts_white_24dp"
+            android:title="阅读"
+            />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_fiber_new_white_24dp"
+            android:title="新闻"
+            />
+
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_android_white_24dp"
+            android:title="安卓"
+            />
+
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@drawable/ic_collections_white_24dp"
+            android:title="收藏"
+            />
+
+    </group>
+
+    <item android:title="持阅">
+        <menu>
+            <item
+                android:id="@+id/nav_night_mode"
+                android:icon="@drawable/ic_brightness_medium_white_24dp"
+                android:title="夜间模式"
+                />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_white_24dp"
+                android:title="设置"
+                />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_more_vert_white_24dp"
+                android:title="关于"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>
